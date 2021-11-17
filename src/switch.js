@@ -1,6 +1,7 @@
 // Es más fácil escribir muchas sentencias If/Else con Switch
 
 // If / Else 
+var val ='';
 if (val === 1) {
     answer = 'a';
 } else if (val === 2) {
@@ -46,7 +47,7 @@ function chainToSwitch(val) {
   chainToSwitch(7);
 
   // Con Switch
-  
+
   function toSwitch(val) {
       let answer = '';
       // Estructura con switch
