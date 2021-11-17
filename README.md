@@ -1,1 +1,1 @@
-# Jvascript-freecodecamp
+# Javascript-freecodecamp
