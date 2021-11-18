@@ -76,3 +76,31 @@ console.log(ourDog.name);
 // Happy Camper
 
 //  Añadir nuevas propiedades a un objeto
+
+ourDog.bark = 'bow-wow';
+
+console.log(ourDog.bark);
+
+// Eliminar propiedades del objeto
+
+delete ourDog.bark;
+
+// Output = Quedan sola las primeras 4 propiedades
+
+// Usar Objetos para hacer búsquedas
+const alpha = {
+    1:"Z",
+    2:"Y",
+    3:"X",
+    4:"W",
+
+    24:"C",
+    25:"B",
+    26:"A"
+  };
+  
+  alpha[2];
+  alpha[24];
+  
+  const value = 2;
+  alpha[value];
