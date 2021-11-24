@@ -8,5 +8,5 @@ const myObj = {
     top: 'hat',
     bottom: 'pants'
 };
-myObj.hasOwnProperty('top');
-myObj.hasOwnProperty('middle');
+myObj.hasOwnProperty('top'); // true
+myObj.hasOwnProperty('middle'); // false
