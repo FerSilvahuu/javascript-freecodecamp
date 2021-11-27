@@ -37,11 +37,20 @@ let parImpar = numero => {
 
 // Leer una palabra alreves
 
-let reto = 'FreeCodeCamp';
-
-const atras = reto => {
-    if (reto = '') {
-        return console.log('cadena vacia')
-    } else if 
+const multiply = (arr, n) => {
+    if (n <= 0) {
+        return 1;
+    } else {
+        return multiply(arr,n - 1) * arr[n-1];
+    }
 }
 
+const sum = (arr,n) => {
+    if (n <= 0) {
+        return 0
+    } else {
+        return sum(arr, n -1) + arr[n - 1 ];
+    }
+}
+
+sum([2,3,4],1);
