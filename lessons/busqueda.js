@@ -42,7 +42,6 @@ const lookUpProfile = (name,prop) => {
 }
 
 
-  return "No such contact";
 lookUpProfile("Kristian", "lastName");
 lookUpProfile("Sherlock", "likes");
 lookUpProfile("Harry", "likes");
